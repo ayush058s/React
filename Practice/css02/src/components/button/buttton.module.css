@@ -1,0 +1,9 @@
+.btn{
+    height: 10vh;
+    width: 10vw;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
