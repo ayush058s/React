@@ -26,7 +26,6 @@ const App = () => {
     
       <form onSubmit={(e) => {
         submitHandler(e);
-        // PrintIntro();
       }} 
       >
         <input value={username} onChange={(e) => {
