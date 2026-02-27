@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <div >
-      <h1 className='text5xl'>local and session storage</h1>
+      <h1 >local and session storage</h1>
     </div>
   )
 }
