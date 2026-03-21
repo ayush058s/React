@@ -10,7 +10,7 @@ import {
 
 async function main(prompt) {
   const ai = new GoogleGenAI({
-    apiKey: process.env['AIzaSyAEl1EUMP23CAHYel3lOw2LaWQBCfwFjuY'],
+    apiKey: process.env['GOOGLE_API_KEY']!,
   });
   const tools = [
     {
